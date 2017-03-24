@@ -1,0 +1,72 @@
+package model;
+
+/**
+ * Created by student on 10/4/2016.
+ */
+
+public class Place {
+
+    private float lon;
+    private float lat;
+    private long sunSet;
+    private long sunRise;
+    private String country;
+    private String city;
+    private long lastUpdated;
+
+    public float getLon() {
+        return lon;
+    }
+
+    public void setLon(float lon) {
+        this.lon = lon;
+    }
+
+    public float getLat() {
+        return lat;
+    }
+
+    public void setLat(float lat) {
+        this.lat = lat;
+    }
+
+    public long getSunSet() {
+        return sunSet;
+    }
+
+    public void setSunSet(long sunSet) {
+        this.sunSet = sunSet;
+    }
+
+    public long getSunRise() {
+        return sunRise;
+    }
+
+    public void setSunRise(long sunRise) {
+        this.sunRise = sunRise;
+    }
+
+    public String getCountry() {
+        return country;
+    }
+
+    public void setCountry(String country) {
+        this.country = country;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+    public long getLastUpdated() {
+        return lastUpdated;
+    }
+
+    public void setLastUpdated(long lastUpdated) {
+        this.lastUpdated = lastUpdated;
+    }
+}
